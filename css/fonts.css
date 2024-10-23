@@ -19,6 +19,13 @@
     font-style: normal;
   }
 
+.montserrat-italic {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  }
+
   .roboto-thin {
     font-family: "Roboto", serif;
     font-weight: 100;

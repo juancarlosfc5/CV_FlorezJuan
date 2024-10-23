@@ -52,14 +52,13 @@ body {
 .main-block {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Ajusta el tamaño del bloque principal */
+    padding-bottom: 20px;
 }
 .profile-picture {
     width: 150px; /* Ajusta el tamaño según tus necesidades */
     height: 150px; /* Asegúrate de que la altura sea igual al ancho para mantener la forma circular */
     border-radius: 50%; /* Esto hará que la imagen se convierta en un círculo */
     object-fit: cover; /* Esto asegura que la imagen se ajuste bien en el contenedor circular */
-    border: 4px solid #fff; /* Añade un borde blanco para dar el efecto estilo Instagram */
+    border: 2px solid #fff; /* Añade un borde blanco para dar el efecto estilo Instagram */
     box-shadow: 0 0 15px #00000033; /* Sombra para destacar la imagen */
 }
