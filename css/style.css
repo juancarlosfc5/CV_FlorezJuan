@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #F1FAEE;
 }
 
 /* Foto de perfil */
@@ -12,11 +12,19 @@ body {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #ffffff;
+    border: 2px solid #F1FAEE;
     box-shadow: 0 0 15px #00000033;
 }
 
 /* Estilo para los sub-bloques dentro de cada bloque */
+.bloque {
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .bloque-Datos {
     background-color: #e0e0e0;
     margin-bottom: 10px;
@@ -24,14 +32,6 @@ body {
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-}
-
-.bloque {
-    background-color: #e0e0e0;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .tabla{
@@ -62,4 +62,5 @@ td{
 
 p{
     padding-left: 40px;
+    line-height: 1.5;
 }
