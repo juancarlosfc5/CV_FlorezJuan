@@ -8,38 +8,89 @@
     <title>CV</title>
 </head>
 <body>
-    <div class="container">
-        <!-- Bloque 1 -->
-        <div class="block montserrat" id="block1">
-            <div class="main-block">
-                <img src="images/foto.jpg" alt="Foto de perfil" class="profile-picture">
-            </div>
-            <div class="sub-block">
-                <ul><strong>Nombre:</strong> Juan Carlos</ul>
-                <ul><strong>Apellido:</strong> Flórez Cubides</ul>
-                <ul><strong>Email:</strong> juanfc.iq@gmail.com</ul>
-                <ul><strong>Edad:</strong> 29 años</ul>
-                <ul><strong>Dirección:</strong> Carrera 28 No. 51-40 Apto 102</ul>
-            </div>
-        </div>
-        <!-- Bloque 2 -->
-        <div class="block montserrat" id="block2">
-            <h2>Estudios</h2>
-            <div class="sub-block">Texto</div>
-            <h2>Cursos</h2>
-            <div class="sub-block">Texto</div>
-        </div>
-        <!-- Bloque 3 -->
-        <div class="block montserrat" id="block3">
-            <h2>Mis proyectos</h2>
-            <div class="sub-block">Texto</div>
-            <h2>Experiencia laboral</h2>
-            <div class="sub-block">Texto</div>
-            <h2>Skills</h2>
-            <div class="sub-block">Texto</div>
-            <h2>Contacto</h2>
-            <div class="sub-block">Texto</div>
-        </div>
-    </div>
+    <table class="tabla">
+        <tr>
+            <!-- Bloque 1 -->
+            <td>
+                <table class="tablaInterna">
+                    <tr>
+                        <td style="text-align: center;">
+                            <img src="images/foto.jpg" alt="Foto de perfil" class="foto">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bloque-Datos montserrat">
+                            <ul><strong>Nombre:</strong> Juan Carlos</ul>
+                            <ul><strong>Apellido:</strong> Flórez Cubides</ul>
+                            <ul><strong>Email:</strong> juanfc.iq@gmail.com</ul>
+                            <ul><strong>Edad:</strong> 29 años</ul>
+                            <ul><strong>Dirección:</strong> Carrera 28 No. 51-40 Apto 102</ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <!-- Bloque 2 -->
+            <td>
+                <h2 class="montserrat-negrita">Estudios</h2>
+                <div class="bloque">
+                    <ul><strong>Basica Secundaria:</strong></ul>
+                    <p>Bachiller Técnico Especialidad en Electricidad</p>
+                    <p>Colegio San José de Guanentá,<br>2006 - 2011</p>
+                    <ul><strong>Universidad:</strong></ul>
+                    <p>Ingeniero Químico</p>
+                    <p>Universidad Industrial de Santander,<br>2012 - 2017</p>
+                </div>
+                <h2 class="montserrat-negrita">Cursos</h2>
+                <div class="bloque">
+                    <ul>Auditor interno norma NTC ISO/IEC 17025:2017</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>Fundamentos de Estadística para el Laboratorio</ul>
+                    <p>Metroquímica.net,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                    <ul>x</ul>
+                    <p>SGS Academy,<br>2018</p>
+                </div>  
+            </td>
+            <!-- Bloque 3 -->
+            <td>
+                <h2 class="montserrat-negrita">Mis proyectos</h2>
+                <div class="bloque">Texto</div>
+                <h2 class="montserrat-negrita">Experiencia laboral</h2>
+                <div class="bloque">Texto</div>
+                <h2 class="montserrat-negrita">Skills</h2>
+                <div class="bloque">Texto</div>
+                <h2 class="montserrat-negrita">Contacto</h2>
+                <div class="bloque">
+                    <input type="text" placeholder="Nombre" required class="montserrat"> <br>
+                    <input type="email" placeholder="Email" required class="montserrat"> <br>
+                    <input type="tel" placeholder="Teléfono" required class="montserrat"> <br>
+                    <textarea placeholder="Descripción" rows="3" required class="montserrat"></textarea> <br>
+                    <input type="submit" value="Enviar" class="montserrat">
+                    <input type="submit" value="Limpiar" class="montserrat">
+                </div>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

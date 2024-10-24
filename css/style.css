@@ -1,64 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 /* Estilos generales para el cuerpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
+    background-color: #ffffff;
 }
 
-/* Contenedor principal que agrupa los 3 bloques */
-.container {
-    display: flex;
-    width: 100%;
-    justify-content: space-around; /* Espacio entre los bloques */
-    padding: 20px;
-}
-
-/* Cada uno de los 3 bloques principales */
-.block {
-    background-color: #f0f0f0;
-    width: 30%; /* Ancho de cada bloque (ajustable) */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Foto de perfil */
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 15px #00000033;
 }
 
 /* Estilo para los sub-bloques dentro de cada bloque */
-.sub-block {
+.bloque-Datos {
     background-color: #e0e0e0;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-/* Ajustes para un mejor diseño en pantallas pequeñas */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Los bloques se apilan verticalmente en pantallas pequeñas */
-    }
-
-    .block {
-        width: 100%; /* Los bloques ocupan todo el ancho */
-        margin-bottom: 20px;
-    }
+.bloque {
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Foto de perfil */
-
-.main-block {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    padding-bottom: 20px;
+.tabla{
+    width: 100%; 
+    border-spacing: 20px;
 }
-.profile-picture {
-    width: 150px; /* Ajusta el tamaño según tus necesidades */
-    height: 150px; /* Asegúrate de que la altura sea igual al ancho para mantener la forma circular */
-    border-radius: 50%; /* Esto hará que la imagen se convierta en un círculo */
-    object-fit: cover; /* Esto asegura que la imagen se ajuste bien en el contenedor circular */
-    border: 2px solid #fff; /* Añade un borde blanco para dar el efecto estilo Instagram */
-    box-shadow: 0 0 15px #00000033; /* Sombra para destacar la imagen */
+.tablaInterna{
+    width: 100%;
+}
+
+.tablaInterna tr td ul{
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none; /* Elimina viñetas */
+    padding: 0;
+    margin: 0;
+    font-weight: normal; /* Contenido en estilo normal */
+}
+
+td{
+    background-color: #f0f0f0; 
+    padding: 20px; width: 30%; 
+    vertical-align: top;
+    max-width: 30%;
+}
+
+p{
+    padding-left: 40px;
 }
